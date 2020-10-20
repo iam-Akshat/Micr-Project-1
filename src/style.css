@@ -3,3 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+.graphic{
+  position: relative;
+}
+.graphic img,.graphic-img{
+  width: 80%;
+  height: 600px;
+  position: absolute;
+  z-index: -10;
+}
