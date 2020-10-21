@@ -102,4 +102,35 @@ figure figcaption{
   padding: 5px;
 
 }
+.text-section{
+
+  max-width: 600px;
+}
+.text-section strong{
+  font-size:1.5rem;
+}
+.text-section p{
+  font-size: 1.2rem;
+  margin: 2rem auto;
+  line-height: 1.67rem;
+}
+
+.text-section img{
+  max-width: 600px;
+}
+
+.addl-info{
+  max-width: 600px;
+  font-size: 0.6rem;
+}
+
+.comments-btn{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.comments-btn button{
+  width: 50%;
+}
 
