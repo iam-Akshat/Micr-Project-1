@@ -14,6 +14,10 @@ h1,h2,h3,h4,h5,h6{
 body{
   background-color: white;
   color: #333;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
 }
 .graphic{
   position: relative;
@@ -48,14 +52,13 @@ header {
 }
 main{
   padding-top: 5vh;
-  max-width: 800px;
-  margin: 0 auto;
+  max-width: 1000px;
 }
 main h1{
   text-align: center;
 }
 .hero-img img{
-  width: 120%;
+  width: 100%;
 }
 figure figcaption{
   font-size: 0.9rem;
@@ -167,7 +170,6 @@ figure figcaption{
 }
 .recommendations{
   width: 92%;
-  margin: 0 auto;
 }
 .recommendations .article-img{
   height: 180px;
@@ -233,11 +235,13 @@ figure figcaption{
 }
 
 .pop-spacer{
+  margin-top: 1.19rem;
   border: 1px solid black;
 }
 
 .foot-spacer{
   margin-top: 1rem;
+  width: 92%;
   max-width: 92%;
 }
 
@@ -272,6 +276,7 @@ figure figcaption{
 .main-footer{
   margin: 1.5rem auto;
   display: flex;
+  width: 90%;
   max-width: 90%;
   justify-content: space-evenly;
 }
@@ -288,4 +293,21 @@ figure figcaption{
 }
 .logo{
   height:25px;
+}
+.bottom-nav{
+  width: 92%;
+  max-width: 92%;
+}
+main article section{
+ width: 600px;
+ margin: 0 auto;
+}
+section.infographics{
+  background-color: red;
+  width: 120%;
+  margin-left: -10%;
+}
+.subs-links{
+  padding: 0 1rem;
+  border-left: 1px solid lightgrey;
 }
