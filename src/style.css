@@ -43,6 +43,9 @@ header {
 .xs-text{
   font-size: 0.7rem;
 }
+.bd-text{
+  font-weight: 700;
+}
 main{
   padding-top: 5vh;
   max-width: 800px;
@@ -72,6 +75,7 @@ figure figcaption{
   background-color: lightgray;
   padding: 0.35rem;
   border-radius: 32px;
+  border: 1px solid lightgray;
 }
 .social-link{
   height: 1.5rem;
@@ -273,4 +277,15 @@ figure figcaption{
 }
 .main-footer a:hover{
   border-bottom: 1px solid black;
+}
+.link-spacer{
+  margin:1rem auto ;
+}
+.logo-container{
+  width:92%;
+  display: flex;
+  justify-content: space-between;
+}
+.logo{
+  height:25px;
 }
