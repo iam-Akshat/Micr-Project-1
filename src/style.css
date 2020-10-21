@@ -175,7 +175,6 @@ figure figcaption{
 }
 .articles-container{
   max-width: 800px;
-  margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -185,4 +184,8 @@ figure figcaption{
 .img-caption{
   text-align: right;
   margin-right: 0.5rem;
+}
+.editor-picks-container{
+  max-width: 800px;
+  display: flex;
 }
