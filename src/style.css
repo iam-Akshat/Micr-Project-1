@@ -199,7 +199,7 @@ figure figcaption{
   list-style: none;
 }
 .most-pop h3{
-  margin-bottom: 1.5rem;
+  margin: 1.5rem 0;
 }
 .most-pop ul li{
   padding: 1.2rem 1rem;
@@ -211,4 +211,22 @@ figure figcaption{
 .pop-link{
   color: #333;
   font-weight: 700;
+}
+
+.more-space h4{
+  margin: 1rem 0;
+}
+
+.spacer{
+  margin-top: 20px;
+  max-width: 800px;
+  border: 0.8px black solid;
+}
+
+.editor-picks h3{
+  margin: 1rem 0;
+}
+
+.pop-spacer{
+  border: 1px solid black;
 }
