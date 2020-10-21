@@ -257,12 +257,20 @@ figure figcaption{
   font-size: 0.9rem;
   margin-top: 0.5rem;
 }
+.nav-links-container ul li:hover a{
+  border-bottom: 1.5px solid black;
+}
 
 .bottom-nav{
   margin-top: 1rem;
 }
 
-
-
-
-
+.main-footer{
+  margin: 1.5rem auto;
+  display: flex;
+  max-width: 90%;
+  justify-content: space-evenly;
+}
+.main-footer a:hover{
+  border-bottom: 1px solid black;
+}
