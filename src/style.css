@@ -6,6 +6,7 @@
 }
 a{
   text-decoration: none;
+  color: black;
 }
 h1,h2,h3,h4,h5,h6{
   font-family: 'Open Sans',sans-serif;
@@ -230,3 +231,38 @@ figure figcaption{
 .pop-spacer{
   border: 1px solid black;
 }
+
+.foot-spacer{
+  margin-top: 1rem;
+  max-width: 92%;
+}
+
+.nav-links-container{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+}
+
+.nav-links-container ul{
+  list-style: none;
+}
+
+.nav-links-container .links h4{
+  margin: 1rem 0;
+  font-size: 0.8rem;
+  font-weight: 700;
+} 
+
+.nav-links-container ul li{
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.bottom-nav{
+  margin-top: 1rem;
+}
+
+
+
+
+
