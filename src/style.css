@@ -22,6 +22,7 @@ body{
 }
 
 header {
+  padding: 1.25rem 1.5rem;
   display: flex;
   height: 5vh;
   position: fixed;
@@ -31,6 +32,51 @@ header {
   align-items: center;
   background-color: white;
 
+}
+.lg-color{
+  color: rgb(185, 185, 185);
+}
+.xs-text{
+  font-size: 0.8rem;
+}
+main{
+  padding-top: 5vh;
+  max-width: 800px;
+  margin: 0 auto;
+}
+main h1{
+  text-align: center;
+}
+.hero-img img{
+  width: 120%;
+}
+figure figcaption{
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+}
+.share{
+  display: flex;
+  justify-content: space-between;
+}
+.social-links{
+  display: flex;
+  width: 40%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.social-links a{
+  background-color: lightgray;
+  padding: 0.35rem;
+  border-radius: 32px;
+}
+.social-link{
+  height: 1.5rem;
+  width: 1.5rem;
+
+}
+.social-links a:hover{
+  background-color: white;
+  border: 1px black solid;
 }
 .right-header {
   display: flex;
@@ -42,7 +88,7 @@ header {
 }
 
 .middle-header-logo{
-  width: 250px;
+  width: 200px;
 }
 
 .normal-btn{
