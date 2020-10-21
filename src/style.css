@@ -41,6 +41,12 @@ header {
   background-color: white;
 
 }
+
+.title{
+  max-width: 600px;
+  margin: 1rem auto;
+}
+
 .lg-text{
   color: rgb(185, 185, 185);
 }
@@ -56,6 +62,8 @@ main{
 }
 main h1{
   text-align: center;
+  font-style: italic;
+  text-align: left;
 }
 .hero-img img{
   width: 100%;
@@ -92,10 +100,11 @@ figure figcaption{
 .right-header {
   display: flex;
   width: 20%;
+  justify-content: space-evenly;
 }
+
 .right-header img{
-  width: 1.5rem;
-  
+  width: 1.0rem;
 }
 
 .middle-header-logo{
