@@ -135,8 +135,10 @@ figure figcaption{
 }
 
 .aside-picks{
-  float: right;
+  position: absolute;
+  right: 10%;
   max-width: 250px;
+  z-index: -5;
 }
 
 .aside-picks h3{
