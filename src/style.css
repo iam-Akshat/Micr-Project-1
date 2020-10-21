@@ -134,3 +134,25 @@ figure figcaption{
   width: 50%;
 }
 
+.aside-picks{
+  float: right;
+  max-width: 250px;
+}
+
+.aside-picks h3{
+  font-size: 0.8rem;
+  line-height: 1rem;
+  margin-right: 5px;
+}
+
+.aside-picks article{
+  display: flex;
+  margin: 10px 0;
+
+}
+
+.picks{
+  width: 50px;
+  margin-right: 0.8rem;
+}
+
