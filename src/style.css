@@ -20,3 +20,40 @@ body{
   position: absolute;
   z-index: -10;
 }
+
+header {
+  display: flex;
+  height: 5vh;
+  position: fixed;
+  border-bottom: 1px solid gray;
+  justify-content: space-between;
+  width: 99.3vw;
+  align-items: center;
+  background-color: white;
+
+}
+.right-header {
+  display: flex;
+  width: 20%;
+}
+.right-header img{
+  width: 1.5rem;
+  
+}
+
+.middle-header-logo{
+  width: 250px;
+}
+
+.normal-btn{
+
+  border: 1px solid rgb(50, 104, 145);
+  background-color: rgb(86, 123, 149);
+  color: white;
+  text-transform: uppercase;
+  border-radius: 3px;
+  height: 30px;
+  padding: 5px;
+
+}
+
