@@ -165,7 +165,14 @@ figure figcaption{
   height: 180px;
   width: 260px;
 }
-
+.recommendations .right-reccomendations{
+  float: right;
+}
+.recommendations::after{
+  content: "";
+  clear: both;
+  display: table;
+}
 .articles-container{
   max-width: 800px;
   margin: 0 auto;
