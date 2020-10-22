@@ -28,13 +28,13 @@ link to the original page: (https://www.nytimes.com/2014/03/18/science/space/det
 
 👤 **Helman**
 
-- GitHub: [@githubhandle](https://github.com/helman101)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/helman-andres-5187271b1/)
+- GitHub: [@helman101](https://github.com/helman101)
+- LinkedIn: [Linkedin](https://www.linkedin.com/in/helman-andres-5187271b1/)
 
 👤 **Akshat**
 
-- GitHub: [@githubhandle](https://github.com/iam-Akshat)
-- Twitter: [@twitterhandle](https://twitter.com/akshatsethi)
+- GitHub: [@iam-Akshat](https://github.com/iam-Akshat)
+- Twitter: [@akshatsethi](https://twitter.com/akshatsethi)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/akshat-sethi-786737ba/)
 
 ## Show your support
