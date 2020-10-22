@@ -29,7 +29,7 @@ link to the original page: (https://www.nytimes.com/2014/03/18/science/space/det
 👤 **Helman**
 
 - GitHub: [@githubhandle](https://github.com/helman101)
-- LinkedIn: [LinkedIn](https://linkedin.com/helman-andres-5187271b1/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/helman-andres-5187271b1/)
 
 👤 **Akshat**
 
