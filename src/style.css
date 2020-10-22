@@ -99,7 +99,6 @@ main {
 }
 
 main h1 {
-  text-align: center;
   font-style: italic;
   text-align: left;
 }
@@ -226,6 +225,10 @@ figure figcaption {
   width: 92%;
 }
 
+.right-reccomendations {
+  width: 350px;
+}
+
 .recommendations .article-img {
   height: 180px;
   width: 260px;
@@ -261,10 +264,6 @@ figure figcaption {
   display: flex;
 }
 
-.right-reccomendations {
-  width: 350px;
-}
-
 .most-pop ul {
   list-style: none;
 }
@@ -276,6 +275,10 @@ figure figcaption {
 .most-pop ul li {
   padding: 1.2rem 1rem;
   border-top: 1px solid lightgray;
+}
+
+.main-footer a:hover {
+  border-bottom: 1px solid black;
 }
 
 .most-pop ul li:hover a {
@@ -338,20 +341,12 @@ figure figcaption {
   border-bottom: 1.5px solid black;
 }
 
-.bottom-nav {
-  margin-top: 1rem;
-}
-
 .main-footer {
   margin: 1.5rem auto;
   display: flex;
   width: 90%;
   max-width: 90%;
   justify-content: space-evenly;
-}
-
-.main-footer a:hover {
-  border-bottom: 1px solid black;
 }
 
 .link-spacer {
@@ -371,6 +366,7 @@ figure figcaption {
 .bottom-nav {
   width: 92%;
   max-width: 92%;
+  margin-top: 1rem;
 }
 
 main article section {
