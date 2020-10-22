@@ -281,13 +281,13 @@ figure figcaption {
   border-bottom: 1px solid black;
 }
 
-.most-pop ul li:hover a {
-  color: darkgray;
-}
-
 .pop-link {
   color: #333;
   font-weight: 700;
+}
+
+.pop-link:hover {
+  color: darkgray;
 }
 
 .more-space h4 {
