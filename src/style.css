@@ -64,7 +64,7 @@ body {
   margin-top: 1rem;
 }
 
-header {
+header nav {
   padding: 1.25rem 1.5rem;
   display: flex;
   height: 5vh;
@@ -74,6 +74,7 @@ header {
   width: 99.3vw;
   align-items: center;
   background-color: white;
+  left: 0;
 }
 
 .title {
