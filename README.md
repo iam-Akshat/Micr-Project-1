@@ -2,11 +2,17 @@
 
 # Project 1: Positioning and Floating Elements
 
-> One paragraph statement about the project.
+> This assignment consists of making a clone of a New York Times article page.
+
+- Embedding images
+- Floats and positioning
+- The box model
+- flex box
+- grid
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+link to the original page: (https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0)
 
 ## Built With
 
@@ -15,60 +21,25 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+[Live Demo Link](https://iam-akshat.github.io/Micr-Project-1/src/index.html
+)
 
 ## Authors
 
-👤 **Author1**
+👤 **Helman**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@helman101](https://github.com/helman101)
+- LinkedIn: [Linkedin](https://www.linkedin.com/in/helman-andres-5187271b1/)
 
-👤 **Author2**
+👤 **Akshat**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](issues/).
+- GitHub: [@iam-Akshat](https://github.com/iam-Akshat)
+- Twitter: [@akshatsethi](https://twitter.com/akshatsethi)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/akshat-sethi-786737ba/)
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
