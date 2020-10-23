@@ -387,3 +387,29 @@ section.infographics {
 iframe {
   border: 0;
 }
+
+.fix-footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(26, 26, 26);
+  width: 100%;
+  height: 40px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9rem;
+}
+
+.fix-footer span {
+  font-weight: normal;
+  margin-left: 10px;
+}
+
+.fot-link {
+  color: white;
+  font-size: 0.8rem;
+  margin-left: 30%;
+  margin-right: 5%;
+}
