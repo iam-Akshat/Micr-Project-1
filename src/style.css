@@ -427,11 +427,10 @@ iframe {
   font-size: 0.9rem;
 }
 
-.form-list{
+.form-list {
   margin: 0 auto;
   padding-left: 10%;
 }
-
 
 .choices {
   margin-top: 5px;
@@ -474,11 +473,11 @@ iframe {
   margin-bottom: 10px;
 }
 
-.opinion-li input{
+.opinion-li input {
   margin-left: 20px;
   margin-bottom: 10px;
 }
 
-.opinion-li label{
+.opinion-li label {
   font-size: 0.8rem;
 }
