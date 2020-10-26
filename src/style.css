@@ -273,6 +273,11 @@ figure figcaption {
   margin: 1.5rem 0;
 }
 
+.form li {
+  list-style: none;
+  margin: 5px 0;
+}
+
 .most-pop ul li {
   padding: 1.2rem 1rem;
   border-top: 1px solid lightgray;
@@ -416,23 +421,17 @@ iframe {
 
 .form {
   max-width: 500px;
-  margin: 10px auto;
-  border: none;
+  margin: 30px auto;
+  border: lightgray 1px solid;
+  padding: 1rem;
   font-size: 0.9rem;
 }
 
-.form li {
-  list-style: none;
-  margin: 5px 0;
+.form-list{
+  margin: 0 auto;
+  padding-left: 10%;
 }
 
-.opinion {
-  font-size: 0.8rem;
-}
-
-.opinion li {
-  margin: 1px;
-}
 
 .choices {
   margin-top: 5px;
@@ -442,10 +441,6 @@ iframe {
 .com-btn {
   width: 20%;
   margin-top: 10px;
-}
-
-#comment {
-  padding: 10px;
 }
 
 .element-space input {
@@ -458,4 +453,32 @@ iframe {
 
 .news {
   font-weight: normal;
+}
+
+.text-field {
+  width: 90%;
+  height: 30px;
+  padding: 2px;
+}
+
+.comment {
+  height: 100px;
+  padding: 5px;
+}
+
+#positive {
+  margin-top: 10px;
+}
+
+#neutral {
+  margin-bottom: 10px;
+}
+
+.opinion-li input{
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.opinion-li label{
+  font-size: 0.8rem;
 }
