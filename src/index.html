@@ -248,6 +248,44 @@
             </section>
             <section class="addl-info">
                 <p class="lg-text">A version of this article appears in print on March 18, 2014, Section A, Page 1 of the New York edition with the headline: Space Ripples Reveal Big Bang’s Smoking Gun. <a>Order Reprints</a> | <a>Today’s Paper</a> | <a>Subscribe</a></p>
+                <fieldset class="form">
+                    <legend>Leave a comment</legend>
+                    <form action="src" method="POST" class="com-form">
+                        <ul class="form-list">
+                            <li>
+                                <label for="name" class="name element-space">
+                                    <input type="text" class="text-field" name="name" id="name" maxlength="20" placeholder="Name" required>
+                                </label>
+                            </li>
+                            <li>
+                                <label for="email" class="email element-space"> 
+                                    <input type="email" class="text-field" name="email" id="email" maxlength="20" placeholder="Example@email.com" required>
+                                </label>
+                            </li>
+                            <li>
+                                <label for="comment" class="element-space">
+                                    <textarea name="comment" class="text-field comment" id="comment" cols="70" rows="8" placeholder="Type your comment here…" maxlength="250" required></textarea>
+                                </label>   
+                            </li>
+                            <li class="opinion-li">
+                                What is your overall opinion about this article:<br>     
+                                <input type="radio" name="opinion" value="positive" id="positive"><label for="positive"> positive</label> <br>
+                                <input type="radio" name="opinion" value="negative" id="negative"> <label for="negative">negative</label> <br>  
+                                <input type="radio" name="opinion" value="neutral" id="neutral">
+                                <label for="neutral">neutral</label>
+                            </li>
+                            <li>
+                                <label for="newsletter" class="news">
+                                    <input type="checkbox" id="newsletter"> I want to subscribe to the newsletter.
+                                </label>
+                            </li>
+                            <li>
+                                <button class="com-btn normal-btn" name="submit">Submit</button>
+                            </li>
+                        </ul>
+                    </form>
+                </fieldset>
+
                 <div class="comments-btn">
                     <button class="normal-btn">Read 615 comments</button>
                     <div class="social-links">
@@ -258,6 +296,7 @@
                     </div>
                 </div>
             </section>
+            
         </article>
     </main>
     <footer class="recommendations">
