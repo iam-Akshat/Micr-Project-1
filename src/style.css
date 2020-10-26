@@ -413,3 +413,15 @@ iframe {
   margin-left: 30%;
   margin-right: 5%;
 }
+.add-comment{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: darkgreen;
+  height: fit-content;
+}
+.hide{
+  display: none;
+}

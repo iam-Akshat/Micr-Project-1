@@ -257,6 +257,24 @@
                         <a href=""><img class="social-link" src="./images/share.svg" alt="link share"></a>
                     </div>
                 </div>
+                <div class="add-comment">
+                    <form action="/" method="post">
+                        <textarea minlength="5" maxlength="250" onfocus="removeHide();" class="main-comment" placeholder="Type your comment here" required></textarea>
+                        
+                            <input minlength="5" maxlength="20" class="hide" type="text" placeholder="Your name" required>
+                            <input minlength="5" maxlength="20" class="hide" type="email" placeholder="Your email" required>
+                            <label class="hide" for="rate">How much did you like this article</label>
+                            <select class="hide" name="rate" id="rate">
+                                <option value="positive">positive</option>
+                                <option value="negative">negative</option>
+                                <option value="neutral">neutral</option>
+                            </select>
+                            <input class="hide" type="checkbox" name="subs" id="subs">
+                            <label class="hide" for="subs">I would like to recive newsletter</label>
+                            <button class="hide normal-btn"  type="submit">Add comment</button>
+                        
+                    </form>
+                </div>
             </section>
         </article>
     </main>
@@ -512,7 +530,7 @@
         <strong>Subscribe for $15 a week. <span>Ends soon.</span></strong>
         <a class="fot-link">VIEW OFFER  ></a>
     </footer>
-
+    <script src="./app.js"></script>
 
 </body>
 </html>
