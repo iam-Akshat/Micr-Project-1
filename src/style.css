@@ -413,15 +413,52 @@ iframe {
   margin-left: 30%;
   margin-right: 5%;
 }
-.add-comment{
+
+.add-comment {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-color: darkgreen;
   height: fit-content;
 }
-.hide{
+
+.add-comment form textarea,
+.add-comment form input {
+  margin: 10px 0;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.add-comment form input,
+.add-comment form textarea,
+form label,
+.add-comment form button {
+  font-family: 'Trispace', sans-serif !important;
+}
+
+.add-comment form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+#subs ~ label {
+  margin-left: 10px;
+  font-size: 0.8rem;
+}
+
+.rateq {
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+}
+
+.newsletter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide {
   display: none;
 }

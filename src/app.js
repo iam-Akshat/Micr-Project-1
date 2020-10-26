@@ -6,15 +6,3 @@ function removeHide(k){
         console.log(el.style.display="block");
     }
 }
-mainComment.addEventListener("click",function(){
-   
-    //console.log(hiddenEls.length);
-    // for(let k=0;k<hiddenEls.length;k++){
-    //     console.log(k,"s",hiddenEls.length);
-    //     //console.log(hiddenEls[k].classList.remove("hide")); 
-       
-    //    removeHide(k);
-    // }
-    
-    console.log('display full form');
-})
