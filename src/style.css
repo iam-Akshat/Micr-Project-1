@@ -413,3 +413,49 @@ iframe {
   margin-left: 30%;
   margin-right: 5%;
 }
+
+.form {
+  max-width: 500px;
+  margin: 10px auto;
+  border: none;
+  font-size: 0.9rem;
+}
+
+.form li {
+  list-style: none;
+  margin: 5px 0;
+}
+
+.opinion {
+  font-size: 0.8rem;
+}
+
+.opinion li {
+  margin: 1px;
+}
+
+.choices {
+  margin-top: 5px;
+  font-weight: normal;
+}
+
+.com-btn {
+  width: 20%;
+  margin-top: 10px;
+}
+
+#comment {
+  padding: 10px;
+}
+
+.element-space input {
+  margin-top: 5px;
+}
+
+.element-space textarea {
+  margin-top: 5px;
+}
+
+.news {
+  font-weight: normal;
+}

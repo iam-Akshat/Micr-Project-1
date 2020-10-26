@@ -248,6 +248,55 @@
             </section>
             <section class="addl-info">
                 <p class="lg-text">A version of this article appears in print on March 18, 2014, Section A, Page 1 of the New York edition with the headline: Space Ripples Reveal Big Bang’s Smoking Gun. <a>Order Reprints</a> | <a>Today’s Paper</a> | <a>Subscribe</a></p>
+                <fieldset class="form">
+                    <form action="src" method="POST" class="com-form">
+                        <ul class="form-list">
+                            <li>
+                                <label for="name" class="name element-space">
+                                    Name: <br>
+                                    <input type="text" name="name" id="name" maxlength="20" required>
+                                </label>
+                            </li>
+                            <li>
+                                <label for="email" class="email element-space"> 
+                                    Email: <br>
+                                    <input type="email" name="email" id="email" maxlength="20" required>
+                                </label>
+                            </li>
+                            <li>
+                                <label for="opinion" class="opinion element-space">
+                                    What is your overall opinion about this article:<br>
+                                    <ul class="choices">
+                                        <li>
+                                            <input type="radio" name="opinion" value="positive"> positive
+                                        </li>
+                                        <li>
+                                            <input type="radio" name="opinion" value="negative"> negative
+                                        </li>
+                                        <li>
+                                            <input type="radio" name="opinion" value="neutral"> neutral
+                                        </li>
+                                    </ul>
+                                </label>
+                            </li>
+                            <li>
+                                <label for="comment" class="comment element-space">
+                                    Comment: <br>
+                                    <textarea name="comment" id="comment" cols="70" rows="8" placeholder="Type your comment here…" maxlength="250" required></textarea>
+                                </label>   
+                            </li>
+                            <li>
+                                <label for="newsletter" class="news">
+                                    <input type="checkbox" id="newsletter"> I want to subscribe to the newsletter.
+                                </label>
+                            </li>
+                            <li>
+                                <button class="com-btn normal-btn" name="submit">Submit</button>
+                            </li>
+                        </ul>
+                    </form>
+                </fieldset>
+
                 <div class="comments-btn">
                     <button class="normal-btn">Read 615 comments</button>
                     <div class="social-links">
@@ -258,6 +307,7 @@
                     </div>
                 </div>
             </section>
+            
         </article>
     </main>
     <footer class="recommendations">
